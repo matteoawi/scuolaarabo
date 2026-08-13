@@ -1,0 +1,14 @@
+{
+  "name": "aljariri-commerce",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "NODE_ENV=development node server.mjs",
+    "check": "node --check server.mjs && node --check payments.mjs && node --check reviews.mjs && node --check orders.mjs && node --check catalog.mjs && node --check assets/site.js && node --check assets/checkout.js && node --check assets/result.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
