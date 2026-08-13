@@ -1,0 +1,9 @@
+SCUOLA ARABO — GitHub Pages flat pack
+
+1. Apri il repo matteoawi/scuolaarabo su GitHub.
+2. Add file > Upload files.
+3. Seleziona TUTTI i file estratti da questa cartella (non lo zip).
+4. Commit changes.
+5. GitHub Pages deve puntare a main / (root).
+
+Questo pacchetto non usa sottocartelle: CSS, JS e logo sono in root per evitare 404 durante l’upload via browser.
